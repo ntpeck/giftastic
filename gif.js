@@ -34,7 +34,8 @@ var presidents = ["Washington", "Adams", "Jefferson"];
                 $("#president-view").prepend(newDiv);
 
             };
-        })};
+        });
+    };
 function renderButtons() {
     $("#buttons-view").empty();
 
@@ -44,7 +45,7 @@ function renderButtons() {
         a.addClass("presidents-button");
         a.attr("presidents-name" , presidents[i]);
         a.text(presidents[i]);
-        $("#button-view").append(a);
+        $("#buttons-view").append(a);
     };
 
 };
