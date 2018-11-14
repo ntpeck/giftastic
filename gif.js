@@ -31,7 +31,7 @@ var presidents = ["Washington", "Adams", "Jefferson"];
                 presidentsImage.attr("data-animate", animated);
                 newDiv.append(p);
                 newDiv.prepend(presidentsImage);
-                $("#president-view").prepend(newDiv);
+                $("#presidents-view").prepend(newDiv);
 
             };
         });
